@@ -1,0 +1,49 @@
+ul li {
+  list-style-type: none;
+  height: 50px;
+  width: 900px;
+}
+
+.hidden {
+  display: none;
+}
+
+.item {
+  position: relative;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.closer,
+.editor {
+  margin-right: 10px;
+  margin-left: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.done {
+  position: relative;
+  background-color: brown;
+}
+
+.done::before {
+  content: "";
+  position: absolute;
+  width: 97%;
+  height: 2px;
+  background: #000;
+  top: 50%;
+}
+
+.edit {
+  width: 800px;
+  position: absolute;
+  left: 0px;
+  height: 50px;
+}
+
+.saver {
+  float: right;
+}
+/*# sourceMappingURL=1.css.map */

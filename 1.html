@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="1.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center ">My To Do List</h1>
+      <h2 class="text-center">
+        <span class="count">0</span> of <span class="count2">1</span> have done
+      </h2>
+      <br />
+      <input class="mx-auto w-75 task" type="text" placeholder="text..." />
+      <button class="bg-dark px-5 btn ">add</button>
+      <ul class="list">
+        <!-- list -->
+
+        <li class="item">
+          <span class="text">go to the gym 1</span>
+          <span class="closer">close</span>
+          <span class="editor">
+            <input type="text" class="edit hidden" />
+            <span class="edit-text">edit</span>
+          </span>
+          <button class="bg-dark saver hidden g">save</button>
+        </li>
+
+        <!-- list -->
+      </ul>
+    </div>
+    <script type="text/javascript" src="1.js"></script>
+  </body>
+</html>
